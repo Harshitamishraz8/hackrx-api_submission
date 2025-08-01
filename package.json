@@ -1,16 +1,8 @@
 {
-  "name": "hackrx-api",
+  "name": "hackrx-python-api",
   "version": "1.0.0",
-  "description": "HackRx API with Node.js backend",
-  "main": "server.js",
+  "description": "HackRx Document Q&A API with Python FastAPI backend",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js",
-    "build": "echo 'No build step required'"
-  },
-  "dependencies": {
-    "express": "^4.18.2",
-    "cors": "^2.8.5",
-    "axios": "^1.6.0"
+    "start": "python main.py"
   }
 }
